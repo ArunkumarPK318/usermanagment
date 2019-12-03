@@ -1,0 +1,39 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.jhipster.usermanagement"
+    },
+    "jhipsterVersion": "6.5.1",
+    "applicationType": "monolith",
+    "baseName": "userManagement",
+    "packageName": "com.jhipster.usermanagement",
+    "packageFolder": "com/jhipster/usermanagement",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Memory",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "Yjk1MmM4NzVhYTE5NzBlNWRhMWIzMmQ1MTYzZDU0OTIzOWQ2YWM1MGM3YTg3OGYxNTFlNGQ4Y2Q1NjVkYzVhZTdhZDEwOTI3NWEwMTY2YzAyNWY4ZThlNDI5NmUyNTMxYzAyNTFmODI3OGU5YjM4Yjc0YzEzNDg2ZDFiZWIwMDQ=",
+    "embeddableLaunchScript": false,
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "clientFramework": "angularX",
+    "clientTheme": "none",
+    "clientThemeVariant": "",
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": false,
+    "blueprints": []
+  }
+}
