@@ -1,0 +1,45 @@
+{
+    "name": "App",
+    "fields": [
+        {
+            "fieldName": "type",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "vesrion",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "urlPath",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "name",
+            "fieldType": "String"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "one-to-many",
+            "otherEntityName": "userMG",
+            "otherEntityRelationshipName": "app",
+            "relationshipName": "user"
+        },
+        {
+            "relationshipType": "one-to-many",
+            "otherEntityName": "roles",
+            "otherEntityRelationshipName": "app",
+            "relationshipName": "roles"
+        }
+    ],
+    "changelogDate": "20191203133145",
+    "entityTableName": "app",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "readOnly": false,
+    "clientRootFolder": "",
+    "applications": "*"
+}

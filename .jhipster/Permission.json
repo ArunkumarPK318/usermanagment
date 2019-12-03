@@ -1,0 +1,28 @@
+{
+    "name": "Permission",
+    "fields": [
+        {
+            "fieldName": "name",
+            "fieldType": "String"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "many-to-one",
+            "otherEntityName": "roles",
+            "otherEntityRelationshipName": "permission",
+            "relationshipName": "roles",
+            "otherEntityField": "id"
+        }
+    ],
+    "changelogDate": "20191203133148",
+    "entityTableName": "permission",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "readOnly": false,
+    "clientRootFolder": "",
+    "applications": "*"
+}
